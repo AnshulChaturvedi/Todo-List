@@ -8,7 +8,7 @@ exports.getTodo = async(req,res) => {
         .json({
             success:true,
             data:todos,
-            message:"Entire Todo Data is feetched",
+            message:"Entire Todo Data is fetched",
         });
     }
     catch(err){
